@@ -27,6 +27,10 @@ namespace Lab8VAG
             {
                 await Navigation.PushAsync(new ExplictControlCode());
             };
+            ImplicitDemo.Clicked += async (sender, e) =>
+            {
+                await Navigation.PushAsync(new ImplicitDemo());
+            };
         }
     }
 }
