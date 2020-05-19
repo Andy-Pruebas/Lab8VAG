@@ -31,6 +31,22 @@ namespace Lab8VAG
             {
                 await Navigation.PushAsync(new ImplicitDemo());
             };
+            ImplicitCode.Clicked += async (sender, e) =>
+            {
+                await Navigation.PushAsync(new ImplicitCode());
+            };
+            ImplicitControlDemo.Clicked += async (sender, e) =>
+            {
+                await Navigation.PushAsync(new ImplicitControlDemo());
+            };
+            GlobalDemo.Clicked += async (sender, e) =>
+            {
+                await Navigation.PushAsync(new GlobalDemo());
+            };
+            GlobalCode.Clicked += async (sender, e) =>
+            {
+                await Navigation.PushAsync(new GlobalCode());
+            };
         }
     }
 }

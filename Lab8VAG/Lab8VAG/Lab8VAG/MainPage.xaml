@@ -15,6 +15,12 @@
             <Button x:Name="ExplicitControlDemo" Text="ExplicitControlDemo"/>
             <Button x:Name="ExplicitControlCode" Text="ExplicitControlCode"/>
             <Button x:Name="ImplicitDemo" Text="ImplicitDemo"/>
+
+            <Button x:Name="ImplicitCode" Text="ImplicitCode"/>
+            <Button x:Name="ImplicitControlDemo" Text="ImplicitControlDemo"/>
+            <Button x:Name="GlobalDemo" Text="GlobalDemo"/>
+            <Button x:Name="GlobalCode" Text="GlobalCode"/>
+            
         </StackLayout>
     </ScrollView>
 
