@@ -47,6 +47,27 @@ namespace Lab8VAG
             {
                 await Navigation.PushAsync(new GlobalCode());
             };
+            InheritanceDemo.Clicked += async (sender, e) =>
+            {
+                await Navigation.PushAsync(new InheritanceDemo());
+            };
+            InheritanceCode.Clicked += async (sender, e) =>
+            {
+                await Navigation.PushAsync(new InheritanceCode());
+            };
+            DynamicDemo.Clicked += async (sender, e) =>
+            {
+                await Navigation.PushAsync(new DynamicDemo());
+            };
+            DynamicCode.Clicked += async (sender, e) =>
+            {
+                await Navigation.PushAsync(new DynamicCode());
+            };
+            ClassDemo.Clicked += async (sender, e) =>
+            {
+                await Navigation.PushAsync(new ClassDemo());
+            };
+ 
         }
     }
 }
